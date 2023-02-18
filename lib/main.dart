@@ -6,6 +6,12 @@ import 'widget/05-ListViewWidget.dart';
 
 import 'widget/01-textWidget.dart';
 import 'widget/06-App-test.dart';
+import 'widget/07-ListViewBuilder.dart';
+import 'widget/08-GridViewWidget.dart';
+import 'widget/09-StackLayoutWidget.dart';
+import 'widget/10-ExpandedWidget.dart';
+import 'widget/11-SizeBoxWidget.dart';
+import 'widget/12-WrapWidget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AppCR(),
+      home: WrapWidget(),
     );
   }
 }
