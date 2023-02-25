@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'Pages/Form.dart';
+import 'Pages/SideBar.dart';
 import 'widget/02-ImageWidget.dart';
 import 'widget/03-ContainerWidget.dart';
 import 'widget/04-ColumnRowWidget.dart';
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: WrapWidget(),
+      home: SideBarWidget(),
     );
   }
 }
